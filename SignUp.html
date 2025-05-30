@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        justify-items: center;
+    }    
+     #outer{
+        height: 800px;
+        width: 600px;
+         background-color: white;
+        justify-items: center; 
+     }
+
+     #heading{
+           height:70px;
+           width:400px ;
+           justify-items: center;
+           font-weight: bold;
+           
+     }
+
+     #head{
+color: blue;
+font-size: 58px;
+
+}
+  #form{
+        height:600px;
+        width: 410px;
+        background-color:aliceblue;
+        justify-items: center;  
+     }
+#fname,#sname{
+
+    width: 180px;
+    height: 30px;
+}
+#mob,#npass{
+
+    width: 370px;
+    height: 30px;
+    justify-items: center;
+}
+#fpara,#spara{
+    font-size: 10px;
+    justify-items: center;
+}
+#sign{
+       width: 200px;
+       height: 40px;
+       background-color: green;
+       color: white;
+       font-weight: bold;
+       border: solid green;
+       font-size: 20px;
+       justify-items: center;
+
+}
+#acc{
+    justify-items: center;
+    width: 200px;
+    font: size 13px;px ;
+}
+#date{
+    width: 180px;
+    height: 30px;
+
+}
+
+
+    </style>
+</head>
+<body>
+   <div id="outer">
+    <div id="heading">        
+        <h1 id="head">facebook</h1>
+    </div>
+    <div id="form">
+        <h1>Create a new account</h1>
+        <p>It's quick and easy.</p>
+
+        <hr>
+
+        <label for="fname"></label>
+        <input type="First name" placeholder="First name" id="fname">
+
+        <label for="sname"></label>
+        <input type="Surname" placeholder="Surname" id="sname">
+        <br>
+        <br>
+
+
+        <label for="date">Date of birth</label>
+        <input type="date"  id="date"><br><br>
+
+        <label for="gender">Gender</label><br>
+        
+        <label for="male">Male</label>
+        <input type="radio" id="Male"><br>
+    
+        <label for="female">Female</label>
+        <input type="radio" id="Female"><br>
+    
+        <label for="other">Other</label>
+        <input type="radio" id="Other"><br><br>
+
+        <label for="mob"></label>
+        <input type="text" placeholder="Moblie number or email address" id="mob"><br><br>
+
+        <label for="npass"></label>
+        <input type="password" placeholder="New password" id="npass">
+
+        <p id="fpara">People who use our service may have upload your contact information to<br>
+           Facebook. <a href="Homepage.html">Learn More.</a> </p>
+
+        <p id="spara">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy.<br>
+            You may receive SMS notification from us and can opt out at any time.</p>
+
+        <br>
+
+        <button id="sign">Sign Up</button>
+        <br>
+        <br>
+        <a href="Homepage.html" id="acc">Already have an account?</button>
+
+    </div>
+   </div> 
+</body>
+</html>
